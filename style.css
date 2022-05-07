@@ -1,0 +1,36 @@
+.fotos li{
+
+    border: 2px solid #000000;
+}
+.fotos li {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.fotos img{
+    width:100px;
+    height:150px;
+}
+.fotos li:hover{
+    border-color: #c78c19;
+}
+.fotos li:active{
+    border-color: #088c19;
+}
+.fotos li:hover h2{
+    font-size: 35px;
+}
+.produto-descricao{
+    font-size: 18px;
+}
+.produto-preco{
+    font-size:22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
