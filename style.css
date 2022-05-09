@@ -37,3 +37,29 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+
+
+
+.container {
+    display: flex;
+	border: 1px solid rgb(0, 0, 0);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.child{
+    width: 30%;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
